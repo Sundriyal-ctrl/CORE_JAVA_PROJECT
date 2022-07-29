@@ -1,86 +1,31 @@
 package Day3;
 
-import java.util.Arrays;
-class Bank
+import java.util.ArrayList;
+import java.util.stream.Stream;
+class S
 {
-  static float rateOfInterest=7.5F;
-   int money;
+    int sum=0;
+  void show(final int a){
 
+      System.out.println("A class "+a);
+  }
 
-    private String name,Address;
-    private long moneydeposit, MoneyWithdrawal;
-    private long AccountNumber;
-    public static float getRateOfInterest() {
-        return rateOfInterest;
+}
+class B1 extends  S
+{
+    void show(final int a)
+    {
+        System.out.println("B1 class "+a);
     }
-
-    public static void setRateOfInterest(float rateOfInterest) {
-        Bank.rateOfInterest = rateOfInterest;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAddress() {
-        return Address;
-    }
-
-    public void setAddress(String address) {
-        Address = address;
-    }
-
-    public long getMoneydeposit() {
-        money+=moneydeposit;
-        return moneydeposit;
-    }
-
-    public void setMoneydeposit(long moneydeposit) {
-        this.moneydeposit = moneydeposit;
-    }
-
-    public long getMoneyWithdrawal() {
-        money-=MoneyWithdrawal;
-        return MoneyWithdrawal;
-    }
-
-    public void setMoneyWithdrawal(long moneyWithdrawal) {
-        MoneyWithdrawal = moneyWithdrawal;
-    }
-
-    public long getAccountNumber() {
-        return AccountNumber;
-    }
-
-    public void setAccountNumber(long accountNumber) {
-        AccountNumber = accountNumber;
-    }
-    @Override
-    public String toString() {
-        return "Bank{" +
-                "name='" + name + '\'' +
-                ", Address='" + Address + '\'' +
-                ", moneydeposit=" + moneydeposit +
-                ", MoneyWithdrawal=" + MoneyWithdrawal +
-                ", AccountNumber=" + AccountNumber +
-                '}';
-    }
-
-
 }
 public class LeftTriangleWithAlphabet {
     public static void main(String args[]) {
-     Bank bank = new Bank();
-     bank.setAccountNumber(1231432l);
-     bank.setAddress("Upper Nathanpur");
-     bank.setMoneydeposit(1000);
-     bank.setMoneyWithdrawal(100);
-     bank.setName("Anuj Sundriyal");
-        System.out.println(bank);
+        S s;
+        s=new S();
+        s.show(10);
+        s=new B1();
+        s.show(20);
+
     }
 }
 

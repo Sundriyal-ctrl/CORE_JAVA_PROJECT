@@ -49,37 +49,19 @@ class rectangle extends square
        System.out.println(l*b);
    }
 }
+class A
+{
+    public void show(){}
+}
+class B extends A
+{
+    public void show(int a){}
+}
 public class ShapeDriver {
-    static void  display()
-    {
-        Shape1 s[]=new Shape1[10];
-        Random r =new Random();
-        for (int i=0;i<10;i++)
-        {
 
-            switch (r.nextInt(6))
-            {
-                case 1:
-                    s[i]=new circle();
-                    break;
-                case 2:
-                    s[i] = new cylinder();
-                    break;
-                case 3:
-                    s[i]= new rectangle();
-                    break;
-                case 4:
-                    s[i] = new square();
-                    break;
-            }
-        }
-        for (int i=0;i<10;i++)
-        {
-            s[i].area();
-        }
-    }
     public static void main(String[] args) {
-      ShapeDriver.display();
+      B b = new B();
+      b.show(10);
     }
 }
 

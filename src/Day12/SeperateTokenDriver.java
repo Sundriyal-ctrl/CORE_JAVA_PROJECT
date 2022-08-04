@@ -28,3 +28,21 @@ public class SeperateTokenDriver {
         new Token().sep("3+(20%2)*(20/2)");
     }
 }
+/*
+OUTPUT
+================Operands==================
+3
+20
+2
+20
+2
+=================Operators================
++
+(
+%
+)
+*
+(
+/
+)
+ */

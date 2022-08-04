@@ -1,4 +1,9 @@
 package Day12;
+
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.StringTokenizer;
+
 /*
 Accept 5 names of string count the length and as per their length assign their order
 @Author Anuj Sundriyal
@@ -8,6 +13,7 @@ class Replace
     void Replacee(String s)
     {
         String s1=null;
+
         for(int i=0;i<s.length();i++)
         {
             s1=String.valueOf(s.charAt(i));
@@ -19,7 +25,7 @@ class Replace
                 s=s.replace(s1.charAt(0),ss);
             }
         }
-        System.out.println("================After====================");
+
         System.out.println(s);
     }
 }
@@ -29,8 +35,18 @@ public class ReplaceDriver {
     String s="Aarti  Rejul Sundriyal";
 
         System.out.println("================Before===============\n "+s);
-    replace.Replacee("Aarti");
-
+        StringTokenizer stringTokenizer = new StringTokenizer(s," ");
+        int i=0;
+         String s1[] = new String[3];
+        System.out.println("================After====================");
+        while(stringTokenizer.hasMoreElements()) {
+            s1[i++]=stringTokenizer.nextToken();
+        }
+        Arrays.sort(s1, Comparator.comparingInt(String::length));
+        int j=0;
+        //while(stringTokenizer.hasMoreElements())
+        for(int k=0;k<s1.length;k++)
+            replace.Replacee(s1[k]);
     }
 }
 /*

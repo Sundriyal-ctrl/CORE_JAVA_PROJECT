@@ -16,7 +16,7 @@ class Token
            System.out.println(stringTokenizer.nextToken());
        }
        System.out.println("=================Operators================");
-       StringTokenizer stringTokenizer1 = new StringTokenizer(s,"[012345679]");
+       StringTokenizer stringTokenizer1 = new StringTokenizer(s,"[3 20 2 20 2]");
        while(stringTokenizer1.hasMoreElements())
        {
            System.out.println(stringTokenizer1.nextToken());
@@ -25,7 +25,7 @@ class Token
 }
 public class SeperateTokenDriver {
     public static void main(String[] args) {
-        new Token().sep("3+(20%2)*(20/2)");
+        new Token().sep("3 + ( 20 % 2 ) * ( 20 / 2 )");
     }
 }
 /*

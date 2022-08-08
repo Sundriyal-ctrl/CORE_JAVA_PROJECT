@@ -27,12 +27,16 @@ class RR
 }
 public class RemoveRepeatDriver {
     public static void main(String[] args) {
-        String ss="HelloHowAreYou";
-        System.out.println("==========Before============");
-        System.out.println(ss);
-        System.out.println("========After===========");
-        System.out.println(new RR().RpeaTR(ss));
-
+//        String ss="HelloHowAreYou";
+//        System.out.println("==========Before============");
+//        System.out.println(ss);
+//        System.out.println("========After===========");
+//        System.out.println(new RR().RpeaTR(ss));
+     String s="ab";
+        System.err.println("s.hashCode()");
+        String name = null;
+        new NullPointerException("Null khol do");
+        System.out.println(name.length());
     }
 }
 /*

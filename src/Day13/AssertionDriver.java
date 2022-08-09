@@ -7,9 +7,7 @@ package Day13;
 
 public class AssertionDriver {
     public static void main(String[] args) {
-        int a=90;
-        assert a<18:"Age less than 18";
-        System.out.println("Age is correct "+a);
+
     }
 }
 /*

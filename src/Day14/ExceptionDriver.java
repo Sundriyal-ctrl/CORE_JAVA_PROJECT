@@ -15,7 +15,7 @@ import java.util.Scanner;
 class AccountClass
 {
     long balance=130000;
-    void WithdrawalAmount(long amount)  {
+    void withDrawal(long amount)  {
         try{
           if(amount<=0)
             throw new InvalidAmountException("Invalid Amount not allowed "+amount);
@@ -64,7 +64,7 @@ public class ExceptionDriver {
                     break;
                 case 2:
                     System.out.println("Enter Withdrawal Amount");
-                    accountClass.WithdrawalAmount(balance);
+                    accountClass.withDrawal(balance);
                     break;
                 default:
                     System.exit(0);
@@ -73,3 +73,17 @@ public class ExceptionDriver {
         }
     }
 }
+/*
+ OUTPUT
+ Enter Operation
+1)for deposit
+2)for withdrawal
+1
+0
+Amount is invalid More than original Amount
+2
+200000000
+Day14.InsufficientBalanceException: Insufficient Amount Exception
+	at Day14.AccountClass.WithdrawalAmount(ExceptionDriver.java:23)
+	at Day14.ExceptionDriver.main(ExceptionDriver.java:65)
+ */

@@ -1,0 +1,36 @@
+
+u
+java:S2293‰"YReplace the type specification in this constructor call with the diamond operator ("<>").(í‡Á¬ýÿÿÿÿ
+J
+java:S1066a"/Merge this if statement with the enclosing one.(ó‘©ðýÿÿÿÿ
+k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜŠÉ„úÿÿÿÿ
+f	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ€˜~
+D
+java:S1604£"(Make this anonymous inner class a lambda(Ô¶µÿþÿÿÿÿ
+_
+java:S2184"HCast one of the operands of this multiplication operation to a "double".(»Œ÷æ
+_
+java:S2184"HCast one of the operands of this multiplication operation to a "double".(»Œ÷æ
+d
+java:S2184“"HCast one of the operands of this multiplication operation to a "double".(Ù´²Íÿÿÿÿÿ
+d
+java:S2184“"HCast one of the operands of this multiplication operation to a "double".(Ù´²Íÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Èœ”¡ûÿÿÿÿ
+>
+java:S1948,"(Make "shapes" transient or serializable.(­…éÍ
+C
+java:S1948."(Make "worker" transient or serializable.(þýŒøøÿÿÿÿ
+m
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¬†Ýžÿÿÿÿÿ
+_
+java:S2147G"DCombine this catch with the one at line 69, which has the same body.(±Ÿ—±ÿÿÿÿÿ
+y
+java:S2142E"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(è®ã¶øÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(š›îó
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(»›Öf
+V
+java:S2440¥"8Remove this instantiation of "MultiThreadingGameDriver".(¯ÇÍ¿8ª“„ˆ¬0
+a
+java:S1128"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ8ª“„ˆ¬0
+N
+java:S1144~"3Remove this unused private "getRandomColor" method.(ñ¬ˆÈûÿÿÿÿ

@@ -1,0 +1,18 @@
+
+Q
+java:S37409"/Provide the parametrized type for this generic.(º¼˜ªþÿÿÿÿ8õÃÒ´¬0
+J
+java:S3740:"/Provide the parametrized type for this generic.(÷ê³—ÿÿÿÿÿ
+Q
+java:S3740P"/Provide the parametrized type for this generic.(»âÆøÿÿÿÿ8ÖÚØ´¬0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(è¢ÛÄûÿÿÿÿ
+o
+java:S1210,"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(˜Ý™ï
+`
+java:S18549">Remove this useless assignment to local variable "comparable".(º¼˜ªþÿÿÿÿ8ÐÉÕ´¬0
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(Ï‡¬½þÿÿÿÿ
+Q
+java:S14819"/Remove this unused "comparable" local variable.(º¼˜ªþÿÿÿÿ8ÐÉÕ´¬0
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(µ…çµ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ƒç„ú
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(µ…çµ8êúÚ´¬0

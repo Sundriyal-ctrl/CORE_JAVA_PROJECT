@@ -12,7 +12,7 @@ public class StaticClass {
 
         //this static block make a database connection
         static {
-            System.out.println("Assume that Connection is created inside static block So Connection is created Done....");
+            System.out.println("Assume that databaseday1.Connection is created inside static block So databaseday1.Connection is created Done....");
 
         }
 
@@ -20,7 +20,7 @@ public class StaticClass {
 
         public static String DatabaseConnection()
         {
-            return "Connection Object";
+            return "databaseday1.Connection Object";
         }
     }
 

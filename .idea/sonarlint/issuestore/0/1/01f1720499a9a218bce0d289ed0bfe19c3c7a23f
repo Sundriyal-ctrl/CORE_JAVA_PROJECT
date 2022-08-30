@@ -1,0 +1,22 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åŠõ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(€‚Ì¿üÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ç‘²ƒÿÿÿÿÿ
+M
+java:S1611!"2Remove the parentheses around the "name" parameter(û÷¤Ûùÿÿÿÿ
+X
+java:S1612!"=Replace this lambda with method reference 'String::hashCode'.(û÷¤Ûùÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(»¿ÓÉ
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(Å™à>
+G
+java:S1611$"2Remove the parentheses around the "name" parameter(¶Ã˜
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(¶Ã˜
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(æÆæÑÿÿÿÿÿ
+M
+java:S1611'"2Remove the parentheses around the "name" parameter(‰ïÖ¨ıÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(¹µïïúÿÿÿÿ
+M	java:S106)"9Replace this use of System.out or System.err by a logger.(¨ñşj
+U
+java:S1612*":Replace this lambda with method reference 'Employee::new'.(†²ïûÿÿÿÿ
+F
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ1
